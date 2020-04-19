@@ -1,0 +1,16 @@
+{
+  "name": "emitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node battery-service/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bleno": "github:notjosh/bleno#inject-bindings",
+    "bleno-mac": "github:notjosh/bleno-mac",
+    "xpc-connection": "sandeepmistry/node-xpc-connection#pull/26/head"
+  }
+}
